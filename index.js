@@ -19,6 +19,7 @@ document
       .then((data) => {
         console.log('Successful', data);
         this.reset();
+        alert('Thank you for your interest in Message Hub Easy Translate. We will contact you as soon as possible.');
       })
       .catch((err) => console.log('err', err));
   });
